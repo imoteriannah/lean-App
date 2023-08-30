@@ -7,13 +7,30 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <header id="main_header">
-      <h1 id="main_heading">Welcome To The Lean App</h1>
-    </header>
-    <main>
-      <article></article>
-      <article></article>
-    </main>
+    <div class="wrap">
+      <header id="main_header">
+        <h1 id="main_heading">Welcome To The Lean App</h1>
+      </header>
+      <main>
+        <article id="form_container">
+          <form>
+            <div class="form_entry">
+              <input
+                type="text"
+                class="form-item"
+                name="search"
+                placeholder="Search User"
+              />
+            </div>
+            <div class="form_entry">
+              <button name="Submit" class="form-item">Search</button>
+            </div>
+          </form>
+        </article>
+        <article></article>
+      </main>
+    </div>
+    <footer></footer>
     <script src="./index.js"></script>
   </body>
 </html>
