@@ -1,0 +1,15 @@
+* {
+  margin: 0px;
+}
+#main_header {
+  width: 70%;
+  padding-left: 50px;
+  padding-right: 50px;
+  height: 20%;
+  background-color: rgb(224, 119, 119);
+  margin: auto;
+}
+
+#main_heading {
+  color: rgb(233, 242, 243);
+}
