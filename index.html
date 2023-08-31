@@ -12,7 +12,9 @@
         <h1 id="main_heading">The Lean Search</h1>
         <nav>
           <ul class="main_navigation_items">
-            <li class="main_navigation_item">View Users</li>
+            <a href="#"
+              ><li class="main_navigation_item active">View Users</li></a
+            >
             <li class="main_navigation_item">Find User</li>
             <li class="main_navigation_item">Add User</li>
             <li class="main_navigation_item">Modify User</li>
@@ -21,7 +23,7 @@
         </nav>
       </header>
       <main>
-        <article id="form_container">
+        <article id="form_container search_form">
           <form>
             <div class="form_entry">
               <input
@@ -37,7 +39,11 @@
             </div>
           </form>
         </article>
-        <article id="content"></article>
+        <article id="find_user_form"></article>
+        <article id="add_user_form"></article>
+        <article id="modify_user_form"></article>
+        <article id="delete_user_form"></article>
+        <article id="content" class="view_all_users"></article>
       </main>
       <footer>
         <ul class="footer__items">

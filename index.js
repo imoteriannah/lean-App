@@ -6,6 +6,7 @@ function fetchUser() {
       return response.json();
     })
     .then(function (obj) {
+      console.log(obj);
       return renderUser(obj);
     });
 }
@@ -54,6 +55,7 @@ function renderUser(user) {
 
 document.addEventListener("DOMContentLoaded", function () {
   //   const data = require("./db.json");
+  //fetchUser();
   const search = document.querySelector("#submit");
-  search.addEventListener("click", fetchUser());
+  search.addEventListener("submit", fetchUser());
 });

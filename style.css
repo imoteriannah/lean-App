@@ -186,6 +186,11 @@ footer {
   }
 }
 
+.active {
+  background-color: rgb(198, 181, 181);
+  color: white;
+}
+
 /* background-color: rgb(224, 119, 119);
 list-style-type: none;
 margin: 0;
@@ -198,7 +203,7 @@ width: 100%; */
   main,
   footer,
   .wrap {
-    max-width: 90%;
+    max-width: 70%;
   }
   .main_navigation_items {
     background-color: rgb(224, 119, 119);
