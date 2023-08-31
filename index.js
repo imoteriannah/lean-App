@@ -10,15 +10,21 @@ function fetchUser() {
     });
 }
 function addUser() {
-  //   http://localhost:3000/users
+  // display a form earlier hidden to collect user data
+  // using POST, add the data to the db.json file
 }
 
 function deleteUser() {
-  //   http://localhost:3000/users
+  //   get a username
+  //search the db.json to get the ID for the user
+  //delete user with the ID
 }
 
 function modifyUser() {
-  //   http://localhost:3000/users
+  // display form earlier hidden to get user
+  //  query the db.json file to return the record
+  //populate the user data in the modify form and edit the options you want
+  // click modify button to submit edited data
 }
 
 function renderUser(user) {
