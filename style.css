@@ -43,6 +43,9 @@ body {
 
 .main_navigation_items {
   background-color: rgb(224, 119, 119);
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 .main_navigation_item {
@@ -64,6 +67,12 @@ body {
   background-clip: padding-box;
   border-radius: 5px;
   margin-top: 20px;
+}
+
+.form-item::hover {
+  border-color: red;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
 }
 
 .form-item:focus {
@@ -117,9 +126,16 @@ main {
 }
 
 .user_profile {
-  background-color: rgba(247, 244, 244, 0.4);
+  background-color: rgb(245, 180, 180);
   padding: 10px;
-  margin: 10px;
+  margin: 10px auto;
+  border-radius: 15px;
+}
+
+.user_profile_info {
+  font: helvetica, sans-serif;
+  font-size: 25px;
+  color: rgb(236, 236, 179);
 }
 
 footer {
