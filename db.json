@@ -1,0 +1,36 @@
+{
+  "users": [
+    {
+      "userName": "Luca Mensah",
+      "userLocation": "Ghana",
+      "userImageURL": "./assets/LucaMensah.jpg",
+      "userProfession": "Dancer",
+      "userAge": 25,
+      "id": 1
+    },
+    {
+      "userName": "Thor Rangnorok",
+      "userLocation": "Asgard",
+      "userImageURL": "./assets/ThorRangnorok.jpg",
+      "userProfession": "Fighter",
+      "userAge": 29,
+      "id": 2
+    },
+    {
+      "userName": "Paul Imoter",
+      "userLocation": "Nigeria",
+      "userImageURL": "./assets/PaulImoter.jpg",
+      "userProfession": "Programmer",
+      "userAge": 28,
+      "id": 3
+    },
+    {
+      "userName": "Gerald Smith",
+      "userLocation": "England",
+      "userImageURL": "./assets/GeraldSmith.jpg",
+      "userProfession": "Engineer",
+      "userAge": 31,
+      "id": 4
+    }
+  ]
+}
