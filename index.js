@@ -9,6 +9,17 @@ function fetchUser() {
       return renderUser(obj);
     });
 }
+function addUser() {
+  //   http://localhost:3000/users
+}
+
+function deleteUser() {
+  //   http://localhost:3000/users
+}
+
+function modifyUser() {
+  //   http://localhost:3000/users
+}
 
 function renderUser(user) {
   const content = document.querySelector("#content");
@@ -17,16 +28,16 @@ function renderUser(user) {
     userContainer.classList.add("user_profile");
     const username = document.createElement("h2");
     username.classList.add("user_profile_info");
-    username.innerHTML = user.userName;
+    username.innerHTML = `Name: ${user.userName}`;
     const profession = document.createElement("h2");
     profession.classList.add("user_profile_info");
-    profession.innerHTML = user.userProfession;
+    profession.innerHTML = `Profession: ${user.userProfession}`;
     const location = document.createElement("h2");
     location.classList.add("user_profile_info");
-    location.innerHTML = user.userLocation;
+    location.innerHTML = `Country: ${user.userLocation}`;
     const age = document.createElement("h2");
     age.classList.add("user_profile_info");
-    age.innerHTML = user.userAge;
+    age.innerHTML = `Age: ${user.userAge}`;
     content.appendChild(userContainer);
     userContainer.appendChild(username);
     userContainer.appendChild(profession);
@@ -36,7 +47,7 @@ function renderUser(user) {
 }
 
 document.addEventListener("DOMContentLoaded", function () {
-  // const data =
+  //   const data = require("./db.json");
   const search = document.querySelector("#submit");
   search.addEventListener("click", fetchUser());
 });
