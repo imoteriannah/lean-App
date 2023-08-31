@@ -35,9 +35,12 @@ Follow good coding practices. Keep your code DRY (Do not repeat yourself) by uti
 - json-server is required to fetch the data in the db.json file
 - fork the repository
 - copy the content to the home directory for the server/computer
-  -run json-server in the directory to watch for the db.json file( json-server --watch db.json);
-  -the data will be locally hosted at localhost:3000/users and the lean app can make requests to that URL
-  {This is a Minimum Viable Product(MVP), for now we are only viewing all the data in the json database. adding modify, delete and search functionalities to complete the work but to be done on a later date.}
+- run json-server in the directory to watch for the db.json file( json-server --watch db.json);
+- the data will be locally hosted at localhost:3000/users and the lean app can make requests to that URL
+
+{
+This is a Minimum Viable Product(MVP), for now we are only viewing all the data in the json database. adding modify, delete and search functionalities to complete the work but to be done on a later date.
+}
 
 ## Known Bugs
 
