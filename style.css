@@ -173,6 +173,16 @@ footer {
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
 }
+#active {
+  background-color: rgb(198, 181, 181);
+  color: white;
+  /* display: inline-block;
+  text-decoration: none;
+  padding: 8px 16px;
+  border: 1px solid deepskyblue;
+  border-radius: 10px; */
+}
+
 @media (min-width: 697px) {
   main,
   footer,
@@ -189,11 +199,6 @@ footer {
   .main_navigation_item {
     padding: 4px 8px;
   }
-}
-
-.active {
-  background-color: rgb(198, 181, 181);
-  color: white;
 }
 
 /* background-color: rgb(224, 119, 119);
