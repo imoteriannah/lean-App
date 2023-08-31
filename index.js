@@ -1,5 +1,6 @@
 function fetchUser() {
-  // To pass the tests, don't forget to return your fetch!
+  const entry = document.querySelector("#search_text");
+
   return fetch("http://localhost:3000/users")
     .then(function (response) {
       return response.json();
@@ -12,9 +13,18 @@ function fetchUser() {
 function renderUser(user) {
   const content = document.querySelector("#content");
   user.forEach((user) => {
-    const h2 = document.createElement("h2");
-    h2.innerHTML = user.userName;
-    content.appendChild(h2);
+    const username = document.createElement("h2");
+    username.innerHTML = user.userName;
+    const profession = document.createElement("h2");
+    profession.innerHTML = user.userProfession;
+    const location = document.createElement("h2");
+    location.innerHTML = user.userLocation;
+    const age = document.createElement("h2");
+    age.innerHTML = user.userAge;
+    content.appendChild(username);
+    content.appendChild(profession);
+    content.appendChild(location);
+    content.appendChild(age);
   });
 }
 
