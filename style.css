@@ -51,7 +51,8 @@ body {
 .main_navigation_item {
   display: inline-block;
   text-decoration: none;
-  list-style: none;
+  color: #000;
+  padding: 8px 16px;
 }
 
 .form-entry {
