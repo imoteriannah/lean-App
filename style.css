@@ -41,6 +41,16 @@ body {
   flex-grow: 1;
 }
 
+.main_navigation_items {
+  background-color: rgb(224, 119, 119);
+}
+
+.main_navigation_item {
+  display: inline-block;
+  text-decoration: none;
+  list-style: none;
+}
+
 .form-entry {
   margin: 0 auto 1.25rem auto;
   /* margin: 10px; */
