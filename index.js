@@ -13,6 +13,8 @@ function fetchUser() {
 function renderUser(user) {
   const content = document.querySelector("#content");
   user.forEach((user) => {
+    const userContainer = document.createElement("div");
+    userContainer.classList.add("user_profile");
     const username = document.createElement("h2");
     username.innerHTML = user.userName;
     const profession = document.createElement("h2");
@@ -21,10 +23,11 @@ function renderUser(user) {
     location.innerHTML = user.userLocation;
     const age = document.createElement("h2");
     age.innerHTML = user.userAge;
-    content.appendChild(username);
-    content.appendChild(profession);
-    content.appendChild(location);
-    content.appendChild(age);
+    content.appendChild(userContainer);
+    userContainer.appendChild(username);
+    userContainer.appendChild(profession);
+    userContainer.appendChild(location);
+    userContainer.appendChild(age);
   });
 }
 
