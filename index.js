@@ -1,3 +1,8 @@
+function SetActiveTask() {
+  const clicked = document.querySelectorAll(".main_navigation_item");
+  clicked.addEventListener("click", () => this.classList.add("active"));
+}
+
 function fetchUser() {
   const entry = document.querySelector("#search_text");
   //   http://localhost:3000/users
